@@ -1,0 +1,384 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Char = Character
+local LoadionAPI = print("LoadingGUI...")
+local True100 = print("I hate gays")
+
+
+local Window = Rayfield:CreateWindow({
+   Name = "DTX | Script Hub",
+   LoadingTitle = "DTX | Script Hub",
+   LoadingSubtitle = "The newest and one of the best script hub's.",
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "DTX | Script Hub"
+   },
+   Discord = {
+      Enabled = true,
+      Invite = "https://discord.gg/zYJeSekDJN", 
+      RememberJoins = false 
+   },
+   KeySystem = true, -- Set this to true to use our key system
+   KeySettings = {
+      Title = DTX | Script Hub",
+      Subtitle = "Key System",
+      Note = "The best script hub of 2025.",
+      FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"Bestscripthubdtx0710"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+   }
+})
+
+local ScriptsTab = Window:CreateTab("Scripts", nil) -- Title, Image
+local ScriptsSection = ScriptsTab:CreateSection("Scripts:")
+
+Rayfield:Notify({
+   Title = "DTX",
+   Content = "Welcome to DTX, aiming to be the best script hub in Roblox.",
+   Duration = 6.5,
+   Image = 4483362458,
+   Actions = { -- Notification Buttons
+      Ignore = {
+         Name = "Okay!",
+         Callback = function()
+         print("The user tapped Okay!")
+      end
+   },
+},
+})
+
+local Button = ScriptsTab:CreateButton({
+   Name = "KAT",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming/Kat12/main/Kat"))()
+   end,
+})
+
+local Button = ScriptsTab:CreateButton({
+   Name = "Phantom Forces",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/dementiaenjoyer/homohack/main/homohack.lua"))()
+   end,
+})
+
+
+local Button = ScriptsTab:CreateButton({
+   Name = "Blade Ball",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/autoparry.lua"))()
+   end,
+})
+
+local Button = ScriptsTab:CreateButton({
+   Name = "Legends of Speed",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/mqGPg69N"))()
+   end,
+})
+
+local Button = ScriptsTab:CreateButton({
+   Name = "Muscle Legends",
+   Callback = function()
+   loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ahmadsgamer2/Script--Game/main/Muscle-Legends"))()
+   end,
+})
+
+local Button = ScriptsTab:CreateButton({
+   Name = "Arsenal",
+   Callback = function()
+   game:HttpGet("https://getexploits.com/cexecution/730857759301718016")
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/laeraz/midnightcc/main/public.lua"))()
+   end,
+})
+
+local Button = ScriptsTab:CreateButton({
+   Name = "MM2",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/script-by/Nx-Crazy/main/Silent-Aim-MM2"))()
+   end,
+})
+
+local Button = ScriptsTab:CreateButton({
+   Name = "Pet Sim 99",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/CWdd7UZj"))()
+   end,
+})
+
+local Button = ScriptsTab:CreateButton({
+   Name = "PS99 Gem Dupe‘",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/OfficialPS99Developer/PS99OfficialScript/main/PS99OfficialScript"))()
+   end,
+})
+
+local Button = ScriptsTab:CreateButton({
+   Name = "Blox Fruits",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+   end,
+})
+
+local Button = ScriptsTab:CreateButton({
+   Name = "Doors",
+   Callback = function()
+      loadstring(game:HttpGet(('https://pastebin.com/raw/9QPGnLx6'),true))()
+   end,
+})
+
+local Button = ScriptsTab:CreateButton({
+   Name = "Da Hood",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/toosiwhip/statueware/main/dahoodv1.lua"))()
+   end,
+})
+
+local Button = ScriptsTab:CreateButton({
+   Name = "Trident Survival [DOWN]",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/toosiwhip/statueware/main/dahoodv1.lua"))()
+   end,
+})
+
+local Button = ScriptsTab:CreateButton({
+   Name = "Evade [DOWN]",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/XenonLUA/Xenon/main/Evade.lua"))()
+   end,
+})
+
+local Button = ScriptsTab:CreateButton({
+   Name = "Survive The Killer",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Milan08Studio/ChairWare/main/main.lua"))()
+   end,
+})
+
+local Button = ScriptsTab:CreateButton({
+   Name = "Bedwars",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+   end,
+})
+
+local Button = ScriptsTab:CreateButton({
+   Name = "Adopt Me",
+   Callback = function()
+      loadstring(game:HttpGet("https://dpaste.com/GRR4YVSDC.txt"))()
+   end,
+})
+
+local Button = ScriptsTab:CreateButton({
+   Name = "Lumber Tycoon 2",
+   Callback = function()
+     game:HttpGet("https://getexploits.com/cexecution/662507844897361920")
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/LuaWareLoader.lw/main/luawareloader.wtf",true))()("JoinDiscordForGiveAwaysAndUpdates")
+   end,
+})
+
+local Button = ScriptsTab:CreateButton({
+   Name = "Flag Wars",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/LuaWareLoader.lw/main/luawareloader.wtf",true))()("JoinDiscordForGiveAwaysAndUpdates")
+   end,
+})
+
+local Button = ScriptsTab:CreateButton({
+   Name = "Slap Battles",
+   Callback = function()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/Giangplay/Slap_Battles/main/Slap_Battles.lua'))()
+   end,
+})
+
+local Button = ScriptsTab:CreateButton({
+   Name = "Work At Pizza Place (WHEN FOUND)",
+   Callback = function()
+      print("WHEN FOUND")
+   end,
+})
+
+local AdminsSection = ScriptsTab:CreateSection("Admins:")
+
+local Button = ScriptsTab:CreateButton({
+   Name = "Infinite Yield - Admin",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+   end,
+})
+
+local Button = ScriptsTab:CreateButton({
+   Name = "Butter - Admin",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+   end,
+})
+
+local CrasherSection = ScriptsTab:CreateSection("Crashers:")
+
+local Button = ScriptsTab:CreateButton({
+   Name = "ZhenX201 - Crasher",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/ZhenX201/Crash-server/main/source"))()
+   end,
+})
+
+local chatSection = ScriptsTab:CreateSection("Chat:")
+
+local Button = ScriptsTab:CreateButton({
+   Name = "Chat Bypass 1",
+   Callback = function()
+   loadstring(game:HttpGet('https://pastes.io/raw/lstrrfipqq'))();
+   end,
+})
+
+local Button = ScriptsTab:CreateButton({
+   Name = "Chat Bypass 2",
+   Callback = function()
+   loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Synergy-Networks/products/main/BetterBypasser/loader.lua"))({
+    Settings = {
+        Mode = "Normal", -- Type Normal for the user interface. Type "simple" to get a more simple version of BetterBypasser
+        Keybind = "G",
+        CustomBypasses = {} -- Dictionary table needed here. Not required
+    }
+})
+   end,
+})
+
+local Button = ScriptsTab:CreateButton({
+   Name = "Chat Bypass 3",
+   Callback = function()
+   loadstring(game:HttpGet('https://pastes.io/raw/lstrrfipqq'))();
+   end,
+})
+
+local OtherSection = ScriptsTab:CreateSection("Other:")
+
+local Button = ScriptsTab:CreateButton({
+   Name = "Rizzler Script",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Synergy-Networks/OpenSource/main/rizzler.lua",true))()
+   end,
+})
+
+local Button = ScriptsTab:CreateButton({
+   Name = "Thug Shaker",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/MastersMZ-Scripts/Scripts/main/Thug%20shaker.lua",true))()
+   end,
+})
+
+
+local UniSection = ScriptsTab:CreateSection("Universal:")
+
+local Button = ScriptsTab:CreateButton({
+   Name = "Airhub (Aimbot + ESP)",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/AirHub/main/AirHub.lua"))()
+   end,
+})
+
+
+
+
+local BuiltTab = Window:CreateTab("Built-In", nil) -- Title, Image
+local BuiltSection = BuiltTab:CreateSection("Built-In")
+
+local Button = BuiltTab:CreateButton({
+   Name = "Infinite Jump",
+   Callback = function()
+   loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Infinite%20Jump.txt"))()
+   end,
+})
+
+local Button = BuiltTab:CreateButton({
+   Name = "Headless + Korblox",
+   Callback = function()
+   loadstring(game:HttpGet('https://pastebin.com/raw/H5yx10Jq'))()
+   end,
+})
+
+local Button = BuiltTab:CreateButton({
+   Name = "ESP",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/TheNuggetEater05/ekaMiffutSmodnaR/main/GlobalR6SkeletonESP.lua"))()
+
+shared.BoneESP_Settings = {
+    Circle_Visible = false,
+    Circle_Radius = 3,
+    BoneESP_Color = Color3.fromRGB(255,255,255)
+}
+   end,
+})
+
+local Button = BuiltTab:CreateButton({
+   Name = "Tool GUI",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/AZVi2tuK"))()
+   end,
+})
+
+local Button = BuiltTab:CreateButton({
+   Name = "Laser Gun ",
+   Callback = function()
+   loadstring(game:HttpGet('https://pastebin.com/raw/SBbr8YHZ'))()
+   end,
+})
+
+local Button = BuiltTab:CreateButton({
+   Name = "Save Game",
+   Callback = function()
+   saveinstance();
+   end,
+})
+
+local Slider = BuiltTab:CreateSlider({
+   Name = "Player Speed",
+   Range = {0, 100},
+   Increment = 1,
+   Suffix = "Speed",
+   CurrentValue = 16,
+   Flag = "Slider1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Value)
+          game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (Value)
+   end,
+})
+
+local Slider = BuiltTab:CreateSlider({
+   Name = "Player Size [NOT DONE]",
+   Range = {0, 100},
+   Increment = 1,
+   Suffix = "Size",
+   CurrentValue = 16,
+   Flag = "Slider1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Value)
+          game.Players.LocalPlayer.Character.Humanoid.Size = (Value)
+   end,
+})
+
+
+
+
+
+local CreditsTab = Window:CreateTab("Credits", nil) -- Title, Image
+local CreditsSection = CreditsTab:CreateSection("Credits:")
+
+local Button = CreditsTab:CreateButton({
+   Name = "Datrox - Creator",
+   Callback = function()
+   
+   end,
+})
+
+local Button = CreditsTab:CreateButton({
+   Name = "Datrox - Emotional Support | Friend",
+   Callback = function()
+   
+   end,
+})
+
+print("Loaded!")
+
+
